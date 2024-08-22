@@ -1,9 +1,5 @@
-import Image from "next/image";
+import { Signup } from "@/components/Signup";
 
-export default function Signup() {
-  return (
-    <div>
-      <h1>signup</h1>
-    </div>
-  );
+export default function Page() {
+  return <Signup />;
 }
